@@ -1,0 +1,29 @@
+[package]
+name = "unreal-package"
+version = "0.1.0"
+authors = ["FaultyRAM <explodingpsu@gmail.com>"]
+description = "Provides support for reading and extracting Unreal packages."
+repository = "https://github.com/FaultyRAM/unreal-package"
+readme = "README.md"
+keywords = ["Unreal", "package", "extraction"]
+categories = ["encoding", "parser-implementations"]
+license = "Apache-2.0 OR MIT"
+
+[badges.appveyor]
+repository = "FaultyRAM/unreal-package"
+
+[badges.travis-ci]
+repository = "FaultyRAM/unreal-package"
+
+[badges.is-it-maintained-issue-resolution]
+repository = "FaultyRAM/unreal-package"
+
+[badges.is-it-maintained-open-issues]
+repository = "FaultyRAM/unreal-package"
+
+[badges.maintenance]
+status = "actively-developed"
+
+[dependencies.clippy]
+version = "0.0"
+optional = true
